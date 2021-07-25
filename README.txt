@@ -20,3 +20,6 @@ Here's a quick summary of the files involved:
 ->clogger.h // header file used only by clogger.c
 ->udslog.h // header file used by the C client and daemon
 ->client.lua // alternative lua client to send messages to the C daemon
+->demon.h // a header file for daemonization and daemon-related functions
+->demon.c // at the moment, it only has a single function: daemonize(), which turns the current process into a
+daemon
