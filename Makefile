@@ -1,7 +1,5 @@
 SERVER_SOURCES:=srv.c clogger.c demon.c
 CLIENT_SOURCES:=client.c clogger.c
-#$(info SERVER_SOURCES IS $(SERVER_SOURCES))
-#$(info CLIENT_SOURCESIS $(CLIENT_SOURCES))
 
 CC:=gcc
 CCFLAGS:=-Wall -c -o
